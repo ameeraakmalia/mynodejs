@@ -1,5 +1,6 @@
 var express = require("express");
 var path = require("path");
+var $ = require("jquery")
 var routes = require("./routes");
 var app = express();
 
