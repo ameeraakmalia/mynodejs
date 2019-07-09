@@ -12,6 +12,6 @@ app.use(express.static(__dirname + '/css'));
 
 app.use(routes);
 
-app.listen(app.get("port"), function() {
+app.listen(app.get("port"), function () {
     console.log("Server started at port " + app.get("port"));
 });
